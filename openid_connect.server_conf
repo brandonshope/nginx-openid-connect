@@ -24,12 +24,6 @@
         default_type text/plain; # In case we throw an error
     }
 
-    location @do_oidc_flow2 {
-        status_zone "OIDC start";
-        js_content oidc.auth;
-        default_type text/plain; # In case we throw an error
-    }
-
     set $redir_location "/_codexch";
     location = /_codexch {
         # This location is called by the IdP after successful authentication
