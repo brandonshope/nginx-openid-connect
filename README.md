@@ -1,4 +1,4 @@
-# nginx-openid-connect - multiple IDPs
+# nginx-openid-connect - multiple IDPs/Backends
 
 Reference implementation of NGINX Plus as relying party for OpenID Connect authentication
 
